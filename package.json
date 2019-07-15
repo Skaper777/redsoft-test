@@ -1,8 +1,8 @@
 {
-  "name": "Semenov",
+  "name": "redsoft",
   "version": "1.0.0",
   "private": true,
-  "description": "Semenov",
+  "description": "redsoft",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "8.3.x",
