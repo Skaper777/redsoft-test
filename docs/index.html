@@ -9,14 +9,84 @@
 </head>
 
 <body class="page">
+  <h1>Моё здоровье</h1>
   <header class="page-header">
-    <div class="page-header__logo"></div>
-    <nav class="page-header__nav menu"></nav>
+    <div class="page-header__wrapper wrapper">
+      <a href="index.html" class="page-header__logo">
+        <img src="img/logo.png" alt="logo">
+      </a>
+      <nav class="page-header__nav menu">
+        <a href="#" class="menu-burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </a>
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a href="#" class="menu-list__link">О сервисе</a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#" class="menu-list__link">Функции</a>
+          </li>
+          <li class="menu-list__item menu-list__item--active">
+            <a href="#" class="menu-list__link">Возможности</a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#" class="menu-list__link">Параметры</a>
+          </li>
+        </ul>
+        <a href="#" class="page-header__order">Оставить заявку</a>
+      </nav>      
+      <div class="page-header__slider slider">
+        <ul class="slider-list">
+          <li class="slider-slide slider-slide--active">
+            <p class="slider-slide__title">Расширяем возможности предоставления качественных медицинских услуг</p>
+            <p class="slider-slide__text">«Дневник здоровья» – новый сервис для самоконтроля показателей состояния
+              здоровья, разработанный для участников программы «Мое здоровье».</p>
+            <a href="#" class="slider-slide__btn button">Узнать больше</a>
+          </li>
+          <li class="slider-slide">
+            <p class="slider-slide__title">Расширяем возможности предоставления качественных медицинских услуг</p>
+            <p class="slider-slide__text">«Дневник здоровья» –.</p>
+            <a href="#" class="slider-slide__btn button">Узнать больше</a>
+          </li>
+        </ul>
+        <div class="slider-controls">
+          <input class="slider-controls__btn" type="radio" id="btn-1" name="toggle" checked>
+          <input class="slider-controls__btn" type="radio" id="btn-2" name="toggle">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section>
-
+    <section class="about">
+      <div class="about-wrapper wrapper">
+        <div class="about-image">
+          <img src="img/about/mobile.png" alt="mobile">
+        </div>
+        <div class="about-post">
+          <h2 class="about-title">Что такое «Дневник здоровья»?</h2>
+          <ul class="about-list">
+            <span>Дневник пациента — это удобный онлайн-сервис:</span>
+            <li>Вносите результаты измерений вручную или с помощью
+              интегрированных приборов</li>
+            <li>Ведите персональную медицинскую карту с историей
+              ваших измерений </li>
+            <li>Делитесь результатами измерений со специалистами
+              для повышения эффективности лечения</li>
+            <li>Получайте рекомендации, созданные специально для вас</li>
+          </ul>
+          <a href="#" class="about-btn button">Оставить заявку</a>
+        </div>
+      </div>
+      <div class="about-puls puls">
+        <div class="puls__first-radius"></div>
+        <div class="puls__second-radius"></div>
+        <img src="img/about/pulse.png" alt="puls">
+      </div>
     </section>
   </main>
 
