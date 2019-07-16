@@ -325,10 +325,13 @@ html {
   overflow-x: hidden; }
 
 body {
-  min-width: 320px;
   font-family: 'CeraRoundPro', Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
+  background-color: #fafaff;
+  background-image: url(../img/ellips.png);
+  background-repeat: no-repeat;
+  background-position-x: -9px;
   color: #60759d; }
 
 h1 {
@@ -361,9 +364,7 @@ span {
 .page-header {
   background-image: url(../img/header/back.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #fafaff;
+  background-position-x: center;
   color: white;
   padding-top: 18px; }
   .page-header__logo {
@@ -608,7 +609,7 @@ span {
     background-color: white; }
 
 .about {
-  background-color: #fafaff; }
+  padding-top: 150px; }
 
 .button {
   background-color: #e70067;
